@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+        table  表格
+            thead  表头
+            tbody  表体
+            tfoot  表尾
+                tr  表格中的一行
+                    td  行中的一个单元格
+                    th  自带加粗和居中的td
+    -->
+    <h3 style="text-align: center">成绩单</h3>
+    <table border="1px" style="margin: 0px auto" width=" 600px">
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>chinese</th>
+          <th>math</th>
+          <th>english</th>
+          <th>备注</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>stu01</td>
+          <td>99</td>
+          <td>99</td>
+          <td>99</td>
+          <td rowspan="4">此单元格向下占用4行</td>
+        </tr>
+        <tr>
+          <td>stu02</td>
+          <td>100</td>
+          <td>100</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>平均分</td>
+          <td colspan="3">200</td>
+        </tr>
+        <tr>
+          <td>及格率</td>
+
+          <td colspan="3">200</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
